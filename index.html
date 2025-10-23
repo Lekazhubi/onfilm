@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OnFilm</title>
+    <link href="./movieproject.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="header" id="headerpart">
+        <img src="./images/onfilmlogo.png" id="logo" alt="onfilmlogo">
+    </div>
+   
+    
+    <div class="welcome">
+        <h1 class="first">Discover a collection built for movie lovers. 
+          From fan favorites to hidden gems, ONFILM brings together 
+          stories that inspire, thrill, and stay with you long after
+          the credits roll. Dive in, explore, and find your next favorite film.
+        </h1>
+    </div>
+
+
+<section class="moviesection" id="movies">
+    <h2 class="title">Movies</h2>
+    <div class="gallery">
+
+      <div class="card"
+           data-src="https://youtu.be/7PzwOiW8-n0?si=O1L6KfOLyexYUKg3"
+           data-poster="./images/3idiots.png"
+           onclick="openMovie(this)">
+        <img src="./images/3idiots.png" alt="3 Idiots Poster">
+        <video class="preview" src="./videos/indian (2009).mp4" muted loop></video>
+        <div class="info"><h3>3 Idiots (2009)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/cSGvEfL0qRM?si=YhJML31oZbcGs9jO"
+           data-poster="./images/americanpie2.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/americanpie2.jpg" alt="American Pie 2 Poster">
+        <video class="preview" src="https://youtu.be/edLd44etw2Q?si=qUfNFC4NmIY2w9fg" muted loop></video>
+        <div class="info"><h3>American Pie 2 (2001)</h3></div>
+      </div>
+      
+      <div class="card"
+           data-src="https://youtu.be/l13yPhimE3o?si=B7YdPu73JBktxPFC"
+           data-poster="./images/dumbanddumber.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/dumbanddumber.jpg" alt="Dumb And Dumber Poster">
+        <video class="preview" src="./videos/video.mp4" muted loop></video>
+        <div class="info"><h3>Dumb And Dumber (1994)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/umvFBoLOOgo?si=bAQ9CHKeDSjH4kp3"
+           data-poster="./images//Friday.jpg"
+           onclick="openMovie(this)">
+        <img src="./images//Friday.jpg" alt="Friday Poster">
+        <video class="preview" src="./videos/video.mp4" muted loop></video>
+        <div class="info"><h3>Friday (1995)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/j4NmS4Cl058?si=PCrfuyFWiWVhRips"
+           data-poster="./images/happygilmore.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/happygilmore.jpg" alt="Happy Gilmore Poster">
+        <video class="preview" src="./videos/video.mp4" muted loop></video>
+        <div class="info"><h3>Happy Gilmore (1996)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/DMOBlEcRuw8?si=Zd5s698VFtcQeOWw"
+           data-poster="./images/Pursuitofhappyness.png"
+           onclick="openMovie(this)">
+        <img src="./images/Pursuitofhappyness.png" alt="Pursuit of Happyness Poster">
+        <video class="preview" src="./videos/hajem-preview.mp4" muted loop></video>
+        <div class="info"><h3>Pursuit Of Happyness (2006)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/jEDaVHmw7r4?si=N2G99d6-O4NVGZGX"
+           data-poster="./images/homealone.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/homealone.jpg" alt="Home Alone Poster">
+        <video class="preview" src="./videos/hajem-preview.mp4" muted loop></video>
+        <div class="info"><h3>Home Alone (1990)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/2QKg5SZ_35I?si=sM5DfSJ72TZXtiO6"
+           data-poster="./images/jumanji.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/jumanji.jpg" alt=">Jumanji Poster">
+        <video class="preview" src="./videos/hajem-preview.mp4" muted loop></video>
+        <div class="info"><h3>Jumanji (2019)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/-tnxzJ0SSOw?si=REliudt9RYd6fZF4"
+           data-poster="./images/spiderman.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/spiderman.jpg" alt="Amazing Spider-Man Poster">
+        <video class="preview" src="./videos/hajem-preview.mp4" muted loop></video>
+        <div class="info"><h3>Amazing Spider-Man (2012)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/LZl69yk5lEY?si=wSghFX5XWBOXK9Uk"
+           data-poster="./images/themask.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/themask.jpg" alt="The Mask Poster">
+        <video class="preview" src="./videos/hajem-preview.mp4" muted loop></video>
+        <div class="info"><h3>The Mask (1994)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/SCTzYY95Aw4?si=n433bgCvBfiIyjbm"
+           data-poster="./images/Rushhour2.png"
+           onclick="openMovie(this)">
+        <img src="./images/Rushhour2.png" alt="Rush Hour 2 Poster">
+        <video class="preview" src="./videos/comingsoon-preview.mp4" muted loop></video>
+        <div class="info"><h3>Rush Hour 2 (2001)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/10r9ozshGVE?si=n3_xXiFTopciDk1J"
+           data-poster="./images/kungfupanda3.png"
+           onclick="openMovie(this)">
+        <img src="./images/kungfupanda3.png" alt="Kung Fu Panda 3 Poster">
+        <video class="preview" src="./videos/3idiots.mp4" muted loop></video>
+        <div class="info"><h3>Kung Fu Panda 3 (2016)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/zCFZUZxBVuI?si=AjECvPp2GMmylYUv"
+           data-poster="./images/scarymovie2.png"
+           onclick="openMovie(this)">
+        <img src="./images/scarymovie2.png" alt="Scary Movie 2 Poster">
+        <video class="preview" src="./videos/3idiots.mp4" muted loop></video>
+        <div class="info"><h3>Scary Movie 2 (2001)</h3></div>
+      </div>
+    </div>
+
+    <h2 class="title" id="series">Series</h2>
+    <div class="gallery">
+
+      <div class="card"
+           data-src="https://youtu.be/cUnkjEIW2-o?si=a3tm2wwGNIciBPTy"
+           data-poster="./images/suits.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/suits.jpg" alt="Suits Poster">
+        <video class="preview" src="./videos/Suits - (Season 1 Trailer).mp4" muted loop></video>
+        <div class="info"><h3>Suits (2011)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="https://youtu.be/oqxAJKy0ii4?si=dZksz6DCujcZM4So"
+           data-poster="./images/squidgame.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/squidgame.jpg" alt="Squid Game Poster">
+        <video class="preview" src="./videos/3idiots.mp4" muted loop></video>
+        <div class="info"><h3>Squid Game (2021)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="./videos/3idiots.mp4"
+           data-poster="./images/peakyblinders.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/peakyblinders.jpg" alt="Peaky Blinders Poster">
+        <video class="preview" src="./videos/3idiots.mp4" muted loop></video>
+        <div class="info"><h3>Peaky Blinders (2013)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="./videos/3idiots.mp4"
+           data-poster="./images/breakingbad.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/breakingbad.jpg" alt="Breaking Bad Poster">
+        <video class="preview" src="./videos/3idiots.mp4" muted loop></video>
+        <div class="info"><h3>Breaking Bad (2008)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="./videos/3idiots.mp4"
+           data-poster="./images/squidgame.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/friends.jpg" alt="Friends Poster">
+        <video class="preview" src="./videos/3idiots.mp4" muted loop></video>
+        <div class="info"><h3>Friends (1994)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="./videos/3idiots.mp4"
+           data-poster="./images/squidgame.jpg"
+           onclick="openMovie(this)">
+        <img src="./images/lucifer.jpg" alt="lucifer Poster">
+        <video class="preview" src="./videos/3idiots.mp4" muted loop></video>
+        <div class="info"><h3>Lucifer (2016)</h3></div>
+      </div>
+
+      <div class="card"
+           data-src="./videos/hajem.mp4"
+           data-poster="./images/Blackmirror.png"
+           onclick="openMovie(this)">
+        <img src="./images/Blackmirror.png" alt="Black Mirror Poster">
+        <video class="preview" src="./videos/hajem-preview.mp4" muted loop></video>
+        <div class="info"><h3>Black Mirror (2011)</h3></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🎬 Movie Modal -->
+  <section id="movieModal" class="modal">
+    <div class="bg" onclick="closeMovie()"></div>
+    <div class="content">
+      <span class="close" onclick="closeMovie()">&times;</span>
+      <iframe id="movieFrame"
+              width="100%"
+              height="480"
+              frameborder="0"
+              allow="autoplay; fullscreen; clipboard-write; encrypted-media"
+              allowfullscreen></iframe>
+    </div>
+  </section>
+
+<footer>
+    <div class="end">
+        
+      <section> @Movies.</section>
+        
+      <section>Copyright © 2025 | Onfilm - Movies and Series HD.</section>
+       
+      <section>Disclaimer: This site does not store any files on its server! All contents are provided by non-affiliated third parties!</section>
+    
+    </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="movieproject.js" charset="UTF-8"></script>
+
+</body>
+
+</html>
